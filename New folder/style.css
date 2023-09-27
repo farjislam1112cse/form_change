@@ -1,0 +1,134 @@
+body{
+    font-family: Nunito, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 0 20px;
+    margin: -32px -35px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.logo{
+    font-weight: bolder;
+    
+    color: #06bbcc;
+}
+.logo h1{
+    margin: 0;
+}
+
+.nav span{
+    color: #06bbcc;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+   
+}
+.nav ul li{
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+}
+.nav a:hover{
+    color: #06bbcc;
+}
+.nav button{
+    background:#06bbcc;
+    border: none;
+    font-weight: bold;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #ffff;
+    cursor: pointer;
+
+}
+.slid img{
+ opacity: 70%;
+ margin-top: -31px;
+}
+.slid{
+   
+    background: rgba(28, 32, 58, 0.8) url("./img/carousel-2.jpg");
+    background-repeat: no-repeat;
+   background-blend-mode: darken;
+   margin-top: -31px;
+}
+.text{
+  width: 800px;
+  padding: 170px;
+  color: #ffff;
+  font-size: 40px;
+}
+.text p{
+    font-size: 20px;
+}
+
+.text h5{
+    color:#06bbcc;
+}
+.text h2,h5{
+    margin: 0;
+    padding: 10px 0;
+}
+.text button{
+    margin-top: 20px;
+    background-color: #06bbcc;
+    border: none;
+    color: #ffff;
+    padding: 20px;
+    width: 140px;
+    font-size: 15px;
+}
+#btn{
+    background-color: white;
+    color: black;
+}
+
+
+/* ------------------------------------------- */
+.wrapper{
+    margin: 0 auto;
+    width: 960px;
+}
+.mbox{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+   
+}
+.box{
+    background:#eaf8fa ;
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.box:first-child{
+    margin-left: 0;
+}
+
+
+.fa{
+    color:#06bbcc ;
+}
+.color{
+    color: rgb(68, 68, 68);
+}
+
+.box:hover p, i{
+    background-color: #06bbcc;
+    color: #eaf8fa;
+    transition: 0.5s all ease;
+}
